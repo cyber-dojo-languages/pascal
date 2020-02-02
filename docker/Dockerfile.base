@@ -1,0 +1,5 @@
+FROM alpine:latest
+LABEL maintainer=matthew.dodkins@chelonia.co.uk
+
+COPY install.sh .
+RUN ./install.sh
